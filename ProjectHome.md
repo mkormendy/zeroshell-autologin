@@ -1,0 +1,1 @@
+Zeroshell Auto Login is a script writen in Python to automate the web login for the Captive Portal of the Linux Distribution Zeroshell (www.zeroshell.net/eng/)
