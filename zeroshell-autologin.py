@@ -34,7 +34,7 @@ class ZSParser(HTMLParser):
 		http_req = urlopen(URL, urlencode(params))
 		html_content = http_req.read()
 		self.feed(html_content)
-	
+
 	def get_authkey(self):
 			return self.params['Authenticator'] # after parse HTML return the authenticator string
 
